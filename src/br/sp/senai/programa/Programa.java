@@ -8,15 +8,15 @@ public class Programa {
 	public static void main(String[] args) {
 		Pessoa p = new Pessoa();
 		p.setCpf("123456789");
-		p.setNome("Justin Bieber");
+		p.setNome("Nome Teste");
 		p.setCelular("1235457");
 		p.setCep("24667");
 		p.setCidade("Itapevi");
 		p.setEstado("Sao paulo");
 		p.setDtNasc("15-02-2000");
-		p.setEntereco("Av. das treta 789");
+		p.setEntereco("Av. 789");
 		
-		System.out.println("Meu nome È" + p.getNome());
+		System.out.println("Meu nome √©" + p.getNome());
 		
 		Funcionario f = new Funcionario();
 		f.setNome("Larissa");
@@ -33,9 +33,9 @@ public class Programa {
 		f.setCidade("Cidade");
 		
 		System.out.println("------------------------------");
-		System.out.println("O funcion·rio È " + f.getNome());
-		System.out.println("O cargo È " + f.getCargo());
-		System.out.println("O Departamento È " + f.getDepartamento());
+		System.out.println("O funcion√°rio √© " + f.getNome());
+		System.out.println("O cargo √© " + f.getCargo());
+		System.out.println("O Departamento √© " + f.getDepartamento());
 		System.out.println(f.falar());
 	}
 
